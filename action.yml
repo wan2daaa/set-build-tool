@@ -1,0 +1,14 @@
+name: 'set-build-tool'
+description: 'github action 에 maven,gradle 을 간단하게 설치하는 도구 입니다. '
+inputs:
+  build-tool:
+    description: 'maven 또는 gradle 을 입력하시면 됩니다. (기본 값은 maven 입니다.)'
+    required: false
+    default: 'maven'
+  version: # id of input
+    description: '숫자만 입력하시면 됩니다. (기본 값은 3.8.3 입니다.) (gradle not yet supported.)'
+    required: false
+    default: '3.8.3'
+runs:
+  using: 'node20'
+  main: 'src/index.js'

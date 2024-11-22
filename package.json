@@ -1,0 +1,18 @@
+{
+  "name": "maven-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "jaewan <jaewan.park@krafton.com>",
+  "license": "",
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/tool-cache": "^2.0.1"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "typescript": "^5.6.3"
+  }
+}
